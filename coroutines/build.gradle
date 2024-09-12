@@ -11,12 +11,7 @@ ext {
 }
 
 android {
-    compileSdkVersion 28
-
-    defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 28
-    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
 
     buildTypes {
         release {
